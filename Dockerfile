@@ -1,4 +1,4 @@
-FROM webdevops/nginx-php:8.4-alpine
+FROM webdevops/php-nginx:8.4-alpine
 WORKDIR /app
 COPY . /app
 ENV WEB_DOCUMENT_ROOT=/app/public
